@@ -3,10 +3,12 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { PasswordPipe } from './password.pipe';
 
 @NgModule({
 	declarations: [
-		AppComponent
+		AppComponent,
+		PasswordPipe
 	],
 	imports: [
 		BrowserModule,
